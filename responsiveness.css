@@ -1,0 +1,27 @@
+@media  only screen and (max-width: 600px){
+    .mypic {
+        display: none;
+        
+    }
+    .hero-slider {
+        height: 50vh;
+    }
+    .hello-line-hr {
+        display: none;
+    }
+    .hello-line{
+        padding-top: 0 !important;
+        padding-left: 0 !important;
+    }
+    .first-content {
+        align-self:center;
+        padding-top: 50px;
+        /* padding: 0px 0px 10px 100px; */
+       
+      }
+      .hero-slider::before {
+          display: none;
+      }
+
+    
+}

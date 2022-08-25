@@ -1,0 +1,249 @@
+h1{
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 35px;
+  letter-spacing: 7px;
+}
+h2 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 7px;
+}
+p {
+  font-weight: 300;
+  line-height: 1.5em;
+}
+
+.first-content-button {
+  width: 20%;
+  padding: 8px;
+  margin: 5px;
+  background-color:#4791d0;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+.first-button {
+  background-color: whitesmoke;
+  color: black;
+  border: 2px solid #4791d0;
+}
+.first-button:hover {
+  animation-name: btnn;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+.about-btn {
+  width: 30%;
+  border: 2px solid #4791d0;
+}
+@keyframes btnn{
+  100% {
+    background-color:#4791d0;
+    border: 2px solid #4791d0;
+    color: white;
+  }
+}
+.second-button:hover {
+  animation-name: btn;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes btn{
+  100% {
+    background-color:whitesmoke;
+    border: 2px solid #4791d0;
+    color: black;
+  }
+}
+h3{
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 5px;
+}
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+.navbar {
+    /* position: fixed;
+    top: 0;
+    width: 100%; */
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.23);
+    /* background-color: #4791d0; */
+    color: white ;
+}
+.navbar-nav {
+    margin-right: 50px;
+}
+.nav-item{
+    margin-left: 20px;
+}
+.hero-slider {
+    
+    background-color: whitesmoke;
+    height: 90vh;
+}
+/* .hero-slider::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  clip-path: polygon(100% 100%,100% 30%,0% 100%);
+} */
+.first-content {
+  align-self:center;
+  padding: 20px;
+  /* padding: 0px 0px 10px 100px; */
+ 
+}
+.hello-line {
+  align-self: center;
+  padding-left: 30px;
+}
+.hello-line-hr {
+  border: #000 groove 2px;
+}
+
+.mypic {
+  width: 80%;
+  padding-top: 25px;
+}
+.social-icon-div{
+  margin-top: 10px;
+}
+.social-icon{
+  margin:20px 10px 0px 0px ;
+  width: 30px;
+}
+.service-row {
+  display: flex;
+  justify-content: space-around;
+}
+.service-section{
+  margin-top: 100px;
+}
+.service-heading {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+.service-content {
+  margin: 10px;
+  text-align: center;
+  background-color:rgb(248,250,255);
+  padding: 40px 20px 40px 20px;
+  border-radius: 20px;
+  
+}
+.about-section {
+  margin-top: 100px;
+}
+.about-img {
+  width: 100%;
+  padding-top: 25px;
+}
+.about-content {
+  padding: 20px;
+}
+
+.service-content:hover {
+  animation-name: background;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  
+}
+@keyframes background{
+  100% {
+    background-color:#4791d0;
+    color: white;
+  }
+}
+
+
+.img-service-content {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+
+
+    /* .wel-text {
+        font-family: 'Waiting for the Sunrise', cursive; 
+        font-size: 50px;
+        color: white;
+        text-transform: uppercase;
+        margin: 30px;
+        font-weight: bold;
+      } */
+      
+      span {
+        border-right: .05em solid;
+        animation: caret 1s steps(1) infinite;
+      }
+      
+      @keyframes caret {
+        50% {
+          border-color: transparent;
+        }
+      }
+      .typewrite {
+          text-decoration: none;
+          color: white;
+      }
+
+.testimonials {
+  margin-top: 100px;
+  padding: 20px;
+}
+.testimonials-h2 {
+ display: flex;
+ justify-content: center;
+}
+.testimonial-card {
+  display: flex;
+  height: 40vh;
+  margin: 10px;
+  background-color:rgb(248,250,255);
+  padding: 40px 20px 40px 20px;
+  border-radius: 20px;
+  margin-top: 100px;
+}
+.testimonial-card:hover {
+  animation-name: background;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  
+}
+@keyframes background{
+  100% {
+    background-color:#4791d0;
+    color: white;
+  }
+}
+.testimonial-img{
+  margin-top: -10px;
+  height: 35vh;
+
+}
+.sponsors-sec {
+  margin-top: 80px;
+  background: rgb(17,17,17);
+  color: white;
+}
+.partnership  {
+  display: flex;
+  justify-content: space-around;
+  align-self: center;  
+  font-size: 30px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+.sponsor-img {
+  width: 100px;
+  height: 100px;
+}
